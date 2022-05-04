@@ -99,7 +99,6 @@ class PokemonDetailsViewController: UIViewController{
             details.stats = decodedData.stats
             details.height = decodedData.height
             
-            print("===================================")
         } catch {
             print("decode error")
         }
